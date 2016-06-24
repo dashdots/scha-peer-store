@@ -1,0 +1,42 @@
+{
+  "name": "scha-peer-store",
+  "version": "0.0.1",
+  "description": "a json/base-64 store for scha-peer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dashdot/scha-peer-store.git"
+  },
+  "main": "lib/index.js",
+  "license": "NO LICENSE",
+  "dependencies": {
+    "cip": "1.0.0",
+    "bluebird": "3.1.1",
+    "lodash": "4.0.0",
+    "node-entity": "0.5.5",
+    "scha": "/usr/src/scha/release/v1.0.1",
+    "base-64": "^0.1.0",
+    "cheerio": "^0.18.0",
+    "es6-denodeify": "^0.1.1",
+    "es6-promise": "^2.0.1",
+    "simplify-js": "^1.2.1",
+    "urldata": "0.0.1",
+    "utf8": "^2.1.0",
+  },
+  "devDependencies": {
+    "babel": "^4.6.4",
+    "babel-eslint": "^1.0.12",
+    "browser-sync": "^2.2.1",
+    "chai": "~3.4.1",
+    "sinon": "~1.17.2",
+    "load-grunt-tasks": "~3.4.0",
+    "mocha": "~2.3.4",
+    "grunt-cli": "^0.1.13",
+    "scha-tracker": "^0.0.1",
+    "eslint": "^0.15.1",
+    "faucet": "0.0.1",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test\" && exit 1"
+  }
+}
