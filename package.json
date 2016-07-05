@@ -15,7 +15,7 @@
     "node-entity": "0.5.5",
     "scha": "/usr/src/scha/release/v1.0.1",
     "scha-error": "/usr/src/scha-error/release/v1.0.1",
-    "scha-peer": "/usr/src/scha-peer/release/v1.0.2",
+    "scha-peer": "/usr/src/scha-peer/release/v1.0.3",
     "logg": "0.3.1",
     "base-64": "^0.1.0",
     "cheerio": "^0.18.0",
