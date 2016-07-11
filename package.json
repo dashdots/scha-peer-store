@@ -1,6 +1,6 @@
 {
   "name": "scha-peer-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a json/base-64 store for scha-peer",
   "repository": {
     "type": "git",
