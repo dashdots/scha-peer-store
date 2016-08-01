@@ -1,6 +1,6 @@
 {
   "name": "scha-peer-store",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a json/base-64 store for scha-peer",
   "repository": {
     "type": "git",
@@ -13,9 +13,9 @@
     "bluebird": "3.1.1",
     "lodash": "4.0.0",
     "node-entity": "0.5.5",
-    "scha": "/usr/src/scha/release/v1.0.1",
-    "scha-error": "/usr/src/scha-error/release/v1.0.1",
-    "scha-peer": "/usr/src/scha-peer/release/v1.0.3",
+    "scha": "/usr/src/scha/release/v1.0.3",
+    "scha-error": "/usr/src/scha-error/release/v1.0.3",
+    "scha-peer": "/usr/src/scha-peer/release/v1.0.5",
     "logg": "0.3.1",
     "base-64": "^0.1.0",
     "cheerio": "^0.18.0",
