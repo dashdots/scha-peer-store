@@ -40,6 +40,6 @@
     "tape": "^3.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test\" && exit 1"
+    "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   }
 }
