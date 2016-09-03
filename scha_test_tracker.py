@@ -76,14 +76,14 @@ def main():
       log.debug(ident)
       if ident == 5:
         all_scha_window([
-        ("scha.tracker.servers.peer_port.peer_window",peer_window),
-        ("scha.tracker.servers.peer_port.distance",distance),
+        #("scha.tracker.servers.peer_port.peer_window",peer_window),
+        #("scha.tracker.servers.peer_port.distance",distance),
         ("scha.tracker.servers.peer_port.tracker",tracker),
         ("scha.tracker.servers.peer_port.channel_switch",channel_switch),
-        ("scha.tracker.servers.peer_port.channel",channel),
-        ("scha.tracker.servers.peer_port.id",ident),
-        ("scha.tracker.servers.peer_port.ss_id",ss_id),
-        ("scha.tracker.servers.peer_port.hss_id",hss_id)
+        #("scha.tracker.servers.peer_port.channel",channel),
+        #("scha.tracker.servers.peer_port.id",ident),
+        #("scha.tracker.servers.peer_port.ss_id",ss_id),
+        #("scha.tracker.servers.peer_port.hss_id",hss_id)
         ])
 
   cmd.wait()
