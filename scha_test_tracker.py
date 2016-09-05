@@ -69,6 +69,15 @@ def main():
       peer_window = line.split(" ")[-1].strip()
     if line.startswith("distance"):
       distance= line.split(" ")[-1].strip()
+    elif line.startswith("tracker"):
+      tracker = line.split(" ")[-1].strip()
+      log.debug(line.rstrip("\n"))
+    elif line.startswith("channel_switch"):
+      channel_switch = line.split(" ")[-1].strip()
+    elif line.startswith("ss_id"):
+      ss_id = int(line.split(" ")[-1],16)
+    elif line.startswith("channel"):
+      channel = int(line.split(" ")[-1],16)
     elif line.startswith("id"):
       ident = int(line.split(" ")[-1],16)
     elif line.startswith("hss_id"):
